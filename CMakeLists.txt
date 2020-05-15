@@ -7,4 +7,6 @@ endif()
 project(Tensor_lib)
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(tests)
+
 add_executable(main main.cpp)

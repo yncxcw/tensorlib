@@ -7,7 +7,6 @@ int main() {
     t1[4] = 10.0;
     t1[5] = t1[4] + 1;
     std::cout << Tensor<double, 20>::get_size() << std::endl;
-
     // 3D tensor
     Tensor<int, 10, 10, 10> t;
     for (auto i=0; i < 10; i++) {

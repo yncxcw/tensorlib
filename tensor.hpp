@@ -120,7 +120,7 @@ public:
 
   Tensor<T, N> &operator+=(const Tensor<T, N> &other) {
     static_assert(size == other.get_size());
-    add_array<T>(data, other.get_data(), size);
+    add_array<T>(data, other.data, size);
     return *this;
   }
 
